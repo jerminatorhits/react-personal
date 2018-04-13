@@ -1,0 +1,27 @@
+.project-container {
+  border-radius: 6px;
+  padding-top: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgba(180, 180, 180, 0.2);
+}
+
+.section-title {
+  font-size: 40px !important;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+#boba-app-pic {
+  width: 290px;
+  height: 181px;
+}
+
+#center-boba-app-pic {
+  background-color: #939393;
+  width: 100%;
+  height: 181px;
+  display: flex;
+  align-items: center; /* horizontal */
+  justify-content: center; /* vertical */
+}

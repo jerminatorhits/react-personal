@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  background: url("https://c1.staticflickr.com/1/618/32892892610_20dcaf9013_b.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.App-logo {
+  /*animation: App-logo-spin infinite 20s linear;*/
+  margin: 15px auto;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.panel-padding {
+  padding: 20px;
+}
+
+.make-transparent {
+  background-color: rgba(204, 204, 204, 0.2);
+}
+
+.centerBlock {
+  margin: auto;
+}
+
+.center-me {
+  margin: 0 auto;
+}
+
+.center-me img{
+  max-width:100%;
+  max-height:100%;
+  vertical-align: middle;
+}
+
+.hide-overflow {
+  overflow: hidden;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

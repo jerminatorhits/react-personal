@@ -1,0 +1,8 @@
+.tech-photo {
+   flex: none; /* keep aspect ratio */
+}
+
+.relative {
+    display: flex;
+    justify-content: center;
+}

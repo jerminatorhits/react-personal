@@ -1,0 +1,19 @@
+.jumbotron {
+	background-color: white;
+	margin-bottom: 0;
+}
+
+.jumbo-name {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.remove-top-margin {
+	margin-top: 0;
+}
+
+#jumbotron-picture {
+	height: 300px;
+	width: 300px;
+	object-fit: cover;
+}

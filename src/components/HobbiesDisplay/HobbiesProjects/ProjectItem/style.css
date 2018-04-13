@@ -1,0 +1,12 @@
+.project-container-style {
+	width: 290px;
+	max-height: 290px;
+	margin: 20px auto;
+	border-radius: 25px;
+	border: 2px gray solid;
+	background-color: gainsboro;
+}
+
+.project-technologies {
+	padding: 5px 10px;
+}

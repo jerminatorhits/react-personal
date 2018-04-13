@@ -1,0 +1,16 @@
+.img-container {
+  height:100%;
+}
+
+.bound-container {
+	padding: 0;
+	width: 100%;
+}
+
+.img-space {
+  margin-bottom: 0px;
+}
+
+.img-box {
+	overflow: hidden;
+}

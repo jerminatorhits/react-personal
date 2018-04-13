@@ -1,0 +1,79 @@
+.invert-img {
+	-webkit-filter: invert(1);
+	filter: invert(1);
+}
+
+#medium-logo {
+	background-color: white;
+	border-radius: 3px
+}
+
+.nav-titles {
+	font-size: 1.24em;
+}
+
+.center-nav-elements {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.vertical-align-parent {
+	display: flex;
+	align-items: center;
+}
+
+.vertical-align-child {
+	vertical-align: middle;
+}
+
+.github-icon {
+	background-image: url('../../logos/github.svg');
+	height: 68px;
+}
+
+.linkedin-icon {
+	background-image: url('../../logos/linkedin.png');
+	height: 68px;
+}
+
+.nav-right {
+	padding-right: 10px;
+}
+
+.reduce-icon-padding {
+	padding: 10px !important;
+}
+
+.reduce-a-padding a {
+	padding: 10px !important;
+}
+
+.logo-spacer {
+	width: 10px;
+	height: 100%;
+}
+
+ .navbar {
+  min-height: 60px;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 60px;
+  line-height: 60px;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 13px;
+  padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 16.5px;
+    padding-bottom: 16.5px;
+    line-height: 27px;
+  }
+}
