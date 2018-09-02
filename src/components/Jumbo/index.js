@@ -7,7 +7,7 @@ import './style.css';
 class Jumbo extends Component {
   render() {
     return (
-      <Jumbotron>
+      <Jumbotron className="make-transparent">
 			  <h1 className="jumbo-name">Hi There! I'm Jeremy</h1>
 			  <Grid>
 				  <Row className="show-grid">

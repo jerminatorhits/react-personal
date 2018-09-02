@@ -53,75 +53,73 @@ class HobbiesProjects extends Component {
     }
 
     return (
-    	<Panel className="make-transparent" id="portfolio">
+    	<Panel id="portfolio" className="make-transparent">
         <Panel.Heading className="panel-heading">
           <Panel.Title><h1>Portfolio</h1></Panel.Title>
         </Panel.Heading>
         <Panel.Body>
-          <div className="panel-padding">
-          	<Grid fluid>
-		          <Row className="show-grid justify-content-center">
-		            <Col className="centerBlock" sm={6} md={4}>
-		              <ProjectItem
-                    name={project1.name}
-                    image={project1.image}
-                    technologies={project1.technologies}
-                    description={project1.description}
-                    url={project1.url} />
-		            </Col>
-		            <Col className="centerBlock" sm={6} md={4}>
-		              <ProjectItem
-                    name={project2.name}
-                    image={project2.image}
-                    technologies={project2.technologies}
-                    description={project2.description}
-                    url={project2.url} />
-		            </Col>
-		            <Col className="centerBlock" sm={6} md={4}>
-		            	<Media className="project-container-style">
-		              <Media.Heading id="center-boba-app-pic" align="top">
-										<img width={140} height={140} src={project3.image} alt="thumbnail" />
-									</Media.Heading>
-								    <Media.Body className="media-body">
-								      <Media.Heading>{project3.name}</Media.Heading>
-								      <div className="project-technologies">
-								      	<h4>{project3.technologies}</h4>
-								      </div>
-								    </Media.Body>
-                    <a href={project3.url}>
-                      <div className="overlay">
-                        <div className="overlay-text">{project3.description}</div>
-                      </div>
-                    </a>
-								  </Media>
-		            </Col>
-		            <Col className="centerBlock" sm={6} md={4}>
-		              <ProjectItem
-                    name={project4.name}
-                    image={project4.image}
-                    technologies={project4.technologies}
-                    description={project4.description}
-                    url={project4.url} />
-		            </Col>
-		            <Col className="centerBlock" sm={6} md={4}>
-		              <ProjectItem
-                    name={project5.name}
-                    image={project5.image}
-                    technologies={project5.technologies}
-                    description={project5.description}
-                    url={project5.url} />
-		            </Col>
-		            <Col className="centerBlock" sm={6} md={4}>
-		              <ProjectItem
-                    name={project6.name}
-                    image={project6.image}
-                    technologies={project6.technologies}
-                    description={project6.description}
-                    url={project6.url} />
-		            </Col>
-		          </Row>
-		        </Grid>
-          </div>
+          <Grid fluid>
+            <Row className="show-grid justify-content-center">
+              <Col className="centerBlock" sm={6} md={4}>
+                <ProjectItem
+                  name={project1.name}
+                  image={project1.image}
+                  technologies={project1.technologies}
+                  description={project1.description}
+                  url={project1.url} />
+              </Col>
+              <Col className="centerBlock" sm={6} md={4}>
+                <ProjectItem
+                  name={project2.name}
+                  image={project2.image}
+                  technologies={project2.technologies}
+                  description={project2.description}
+                  url={project2.url} />
+              </Col>
+              <Col className="centerBlock" sm={6} md={4}>
+                <Media className="project-container-style">
+                <Media.Heading id="center-boba-app-pic" align="top">
+                  <img width={140} height={140} src={project3.image} alt="thumbnail" />
+                </Media.Heading>
+                  <Media.Body className="media-body">
+                    <Media.Heading>{project3.name}</Media.Heading>
+                    <div className="project-technologies">
+                      <h4>{project3.technologies}</h4>
+                    </div>
+                  </Media.Body>
+                  <a href={project3.url}>
+                    <div className="overlay">
+                      <div className="overlay-text">{project3.description}</div>
+                    </div>
+                  </a>
+                </Media>
+              </Col>
+              <Col className="centerBlock" sm={6} md={4}>
+                <ProjectItem
+                  name={project4.name}
+                  image={project4.image}
+                  technologies={project4.technologies}
+                  description={project4.description}
+                  url={project4.url} />
+              </Col>
+              <Col className="centerBlock" sm={6} md={4}>
+                <ProjectItem
+                  name={project5.name}
+                  image={project5.image}
+                  technologies={project5.technologies}
+                  description={project5.description}
+                  url={project5.url} />
+              </Col>
+              <Col className="centerBlock" sm={6} md={4}>
+                <ProjectItem
+                  name={project6.name}
+                  image={project6.image}
+                  technologies={project6.technologies}
+                  description={project6.description}
+                  url={project6.url} />
+              </Col>
+            </Row>
+          </Grid>
         </Panel.Body>
       </Panel>
     );

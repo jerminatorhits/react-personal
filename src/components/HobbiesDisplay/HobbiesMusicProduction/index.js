@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Panel, Grid, Row, Col, Clearfix } from 'react-bootstrap';
 import VideoUnit from './VideoUnit';
+import Spacer from '../../Spacer';
 
 class HobbiesMusicProduction extends Component {
   constructor(props) {
@@ -9,7 +10,6 @@ class HobbiesMusicProduction extends Component {
   }
 
   render() {
-
     const video1 = {
       title: "When We Were Young",
       artist: "Adele",
@@ -39,34 +39,33 @@ class HobbiesMusicProduction extends Component {
     }
 
     return (
-      <Panel id="music">
+      <Panel id="music" className="make-transparent">
         <Panel.Heading>
           <Panel.Title><h1>Music Production</h1></Panel.Title>
         </Panel.Heading>
         <Panel.Body>
-          <div className="panel-padding">
-            <p>My musical training began at the age of 8 through weekly piano lessons. Since then, I've sang in a number of choirs and even joined an a cappella group in college. I spent my summers performing at a plaza weekly for a few hours at a time. I've found a joy in tinkering with the nuanced art of recording, mixing, and creating music in my home studio. Feel free to check out some of my projects listed below:</p>
-            <Grid fluid>
-              <Row>
-                <Col xs={6} md={3}>
-                   <VideoUnit video={video1} />
-                </Col>
-               <Col xs={6} md={3}>
-                   <VideoUnit video={video2} />
-                </Col>
-                <Clearfix visibleXsBlock>
-                </Clearfix>
-                <Col xs={6} md={3}>
-                   <VideoUnit video={video3} />
-                </Col>
-                <Col xs={6} md={3}>
-                   <VideoUnit video={video4} />
-                </Col>
-              </Row>
-            </Grid>
-
-            <iframe title="youtube-music-player" width="100%" height="100" scrolling="no" frameBorder="yes" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/267061613&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-          </div>
+          <p className="description-text">My musical training began at age 8 through weekly piano lessons. Since then, I've sang in a number of choirs and joined the UCSD Tritones a cappella group in college. I spent my summers weekly performing at an open-air plaza. I've also found a joy in tinkering with the nuanced art of recording, mixing, and creating music in my home studio. Feel free to check out my projects below:</p>
+          <Spacer height={20} />
+          <Grid fluid>
+            <Row>
+              <Col xs={6} md={3}>
+                  <VideoUnit video={video1} />
+              </Col>
+              <Col xs={6} md={3}>
+                  <VideoUnit video={video2} />
+              </Col>
+              <Clearfix visibleXsBlock>
+              </Clearfix>
+              <Col xs={6} md={3}>
+                  <VideoUnit video={video3} />
+              </Col>
+              <Col xs={6} md={3}>
+                  <VideoUnit video={video4} />
+              </Col>
+            </Row>
+          </Grid>
+          <Spacer height={20} />
+          <iframe title="youtube-music-player" width="100%" height="100" scrolling="no" frameBorder="yes" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/267061613&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
         </Panel.Body>
       </Panel>
     );
