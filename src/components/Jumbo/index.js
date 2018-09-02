@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Fade, Grid, Row, Col, Image, Jumbotron, ClearFix } from 'react-bootstrap';
+import { Grid, Row, Col, Image, Jumbotron } from 'react-bootstrap';
 import TechnologiesDisplay from './TechnologiesDisplay';
 import Spacer from '../Spacer';
 import './style.css';
@@ -19,7 +19,7 @@ class Jumbo extends Component {
 				    	<Image id="jumbotron-picture" thumbnail src="https://c1.staticflickr.com/4/3770/33147826961_d0c7395321_b.jpg" />
 				    </Col>
 				  </Row>
-				  <Spacer />
+				  <Spacer height={30} />
 				  <Row className="show-grid">
 				  	<TechnologiesDisplay />
 				  </Row>

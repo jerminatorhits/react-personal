@@ -12,9 +12,9 @@ class App extends Component {
       <div className="App">
         <div className="container">
           <Navigation />
-          <Spacer />
+          <Spacer height={30}/>
           <Jumbo />
-          <Spacer />
+          <Spacer height={30}/>
           <HobbiesDisplay />
           <Footer />
         </div>

@@ -1,12 +1,14 @@
-import React, { Component } from 'react';
-import './style.css';
+import React from 'react';
 
-class Spacer extends Component {
-  render() {
-    return (
-      <div className="spacer"></div>
-    );
-  }
+const Spacer = ({ height }) => {
+	const style = {
+		height,
+		width: '100%'
+	};
+
+	return (
+		<div style={style}></div>
+	);
 }
 
 export default Spacer;
