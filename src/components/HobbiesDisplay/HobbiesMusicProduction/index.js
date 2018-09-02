@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
-import { Panel, Image, Grid, Row, Col, Clearfix } from 'react-bootstrap';
+import { Panel, Grid, Row, Col, Clearfix } from 'react-bootstrap';
 import VideoUnit from './VideoUnit';
 
 class HobbiesMusicProduction extends Component {
+  constructor(props) {
+    super(props);
+    this.myRef = React.createRef();
+  }
+
   render() {
 
     const video1 = {
@@ -34,9 +39,9 @@ class HobbiesMusicProduction extends Component {
     }
 
     return (
-      <Panel>
+      <Panel id="music">
         <Panel.Heading>
-          <Panel.Title componentClass="h3"><h1>Music Production</h1></Panel.Title>
+          <Panel.Title><h1>Music Production</h1></Panel.Title>
         </Panel.Heading>
         <Panel.Body>
           <div className="panel-padding">
@@ -60,7 +65,7 @@ class HobbiesMusicProduction extends Component {
               </Row>
             </Grid>
 
-            <iframe width="100%" height="100" scrolling="no" frameborder="yes" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/267061613&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+            <iframe title="youtube-music-player" width="100%" height="100" scrolling="no" frameBorder="yes" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/267061613&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
           </div>
         </Panel.Body>
       </Panel>

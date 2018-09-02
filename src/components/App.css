@@ -28,6 +28,10 @@
   font-size: large;
 }
 
+.panel-heading {
+  background-image: linear-gradient(to bottom, #f2f2f2 0, #f2f2f2 100%) !important;
+}
+
 .panel-padding {
   padding: 20px;
 }

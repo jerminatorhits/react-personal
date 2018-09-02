@@ -18,32 +18,32 @@ class TechnologiesDisplay extends Component {
 					<Col xs={12} sm={12} md={6}>
 			  		<Row>
 			    		<Col className="relative" xs={6} sm={3} md={3}>
-								<Image className="tech-photo" width={80} height={80} src={reactLogo} className="App-logo"/>
+								<Image className="tech-photo App-logo" width={80} height={80} src={reactLogo}/>
 			    		</Col>
 			    		<Col className="relative" xs={6} sm={3} md={3}>
-			      		<Image className="tech-photo" width={80} height={80} src={reduxLogo} className="App-logo"/>
+			      		<Image className="tech-photo App-logo" width={80} height={80} src={reduxLogo}/>
 					    </Col>
 					    <Col className="relative" xs={6} sm={3} md={3}>
-					      <Image className="tech-photo" width={80} height={80} src={html5Logo} className="App-logo"/>
+					      <Image className="tech-photo App-logo" width={80} height={80} src={html5Logo}/>
 					    </Col>
 					    <Col className="relative" xs={6} sm={3} md={3}>
-					      <Image className="tech-photo" width={80} height={80} src={css3Logo} className="App-logo"/>
+					      <Image className="tech-photo App-logo" width={80} height={80} src={css3Logo}/>
 					    </Col>
 					  </Row>
 					</Col>
 					<Col xs={12} sm={12} md={6}>
 					  <Row>
 					    <Col className="relative" xs={6} sm={3} md={3}>
-					      <Image className="tech-photo" width={80} height={80} src={javascriptLogo} className="App-logo"/>
+					      <Image className="tech-photo App-logo" width={80} height={80} src={javascriptLogo}/>
 					    </Col>
 					    <Col className="relative" xs={6} sm={3} md={3}>
-					      <Image className="tech-photo" width={80} height={80} src={rubyLogo} className="App-logo"/>
+					      <Image className="tech-photo App-logo" width={80} height={80} src={rubyLogo}/>
 					    </Col>
 					    <Col className="relative" xs={6} sm={3} md={3}>
-					      <Image className="tech-photo" width={80} height={80} src={androidLogo} className="App-logo"/>
+					      <Image className="tech-photo App-logo" width={80} height={80} src={androidLogo}/>
 					    </Col>
 					    <Col className="relative" xs={6} sm={3} md={3}>
-					      <Image className="tech-photo" width={80} height={80} src={javaLogo} className="App-logo"/>
+					      <Image className="tech-photo App-logo" width={80} height={80} src={javaLogo}/>
 					    </Col>
 					  </Row>
 				  </Col>

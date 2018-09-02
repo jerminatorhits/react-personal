@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Panel } from 'react-bootstrap';
 import HobbiesProjects from './HobbiesProjects';
 import HobbiesMusicProduction from './HobbiesMusicProduction';
 import HobbiesTraveling from './HobbiesTraveling';

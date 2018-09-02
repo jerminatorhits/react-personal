@@ -1,3 +1,12 @@
 .footer {
-  background-color: black;
+  height: 80px;
+  background-color: rgba(30, 30, 30, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-copyright {
+  font-size: 18px;
+  color: #ccc;
 }
